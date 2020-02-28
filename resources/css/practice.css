@@ -1,0 +1,88 @@
+.container {
+    height: 100vh;
+    width: 100%;
+}
+
+header {
+    background-image: linear-gradient(rgb(0,0,0,0.7), rgb(0,0,0,0.7)), url("./../img/hero.jpg");
+    height: 40%;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    height : 100px;
+    width: auto;
+    margin-top: 30px;
+    margin-left: 50px;
+    float: left;
+}
+
+.menu {
+    float :right;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.menu li {
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 35px;
+    margin-right: 50px;
+   
+}
+.menu li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color :white;
+    padding: 8px 0;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+.menu li a:hover {
+    border-bottom: 1px solid yellow;
+}
+
+.title {
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    font-size : 180%;
+    font-weight: 500;
+    color:white;
+
+}
+
+.c-title {
+    text-align: center;
+    font-weight: 500;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    font-size: 150%;
+}
+
+.title-align {
+    margin-left: 150px;
+}
+
+.btn {
+
+    padding: 10px 20px;
+    border-radius: 200px;
+    color: white;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #e67e22;
+}
+
+.btn-primary {
+    background-color: #e99041;
+} 
+
+.btn-transparent {
+    border : 1px solid #e99041;
+}
+
+
